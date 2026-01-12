@@ -1,5 +1,6 @@
-let a = 10;
-let b = 0;
+let a = 0;
+let b = 10;
 a &&=15;
 b &&=15;
-console.log(g);
+console.log(a);
+console.log(b);
