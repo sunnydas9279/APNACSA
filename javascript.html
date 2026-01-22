@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>All Operator in JS</title>
+</head>
+<body bgcolor="pink">
+      <h1><marquee>APNA CSA IN NSTI HOWRAH</marquee></h1>
+      <h1><center>JAVASCRIPT ALL OPERATOR</center></h1>
+    
+      <h2><center>ARITHMETIC OPERATOR</center>
+        <BR>
+
+<script>
+let A = 10;
+let B = 5;
+
+document.write("Addition = ", A+B, "<br>");
+document.write("Subtraction = ", A-B, "<br>");
+document.write("Multiplication = ", A*B, "<br>");
+document.write("Division = ", A/B, "<br>");
+document.write("Modulus = ", A%B, "<br>");
+document.write("Exponentiation = ", A**B, "<br>");
+
+let inc = A++;
+document.write("Increment = ", inc, "<br>");
+
+let dec = --A;
+document.write("Decrement = ", dec, "<br>");
+</script>
+
+<hr>
+
+<h2><center>COMPARISON OPERATOR</center>
+    <br>
+    <script>
+        a = 5;
+        b = 6;
+
+// equal to
+document.write("Equal To = ",a==b,"<br>");
+
+
+// strictly equal to
+document.write("Strictly Equal To = ",a===b,"<br>");
+
+
+// not equal to
+document.write("Not Equal To = ",a!=b,"<br>");
+
+// strictly not equal to
+document.write("Strictly Not Equal To = ",a!==b,"<br>");
+
+// greater than
+document.write("Greater Than = ",a>b,"<br>");
+
+// greater than or equal to
+document.write("Greater Than Or Equal To = ",a>=b,"<br>");
+
+// less than
+document.write("Less Than = ",a<b,"<br>");
+
+// less than or equal to
+document.write("Less Than Or Equal To = ",a<=b,"<br>");
+
+    </script>
+ 
+
+<hr>
+ 
+
+<h2><center>ASSIGNMENT OPERATOR</center>
+        <br>
+      
+        <script>
+            
+
+           let a=10;
+           document.write("Assign =",a, "<br>");
+
+           // Addition operator
+           let b=50;
+           b +=5;
+           document.write("This Number is Add =",b,"<br>");
+
+         // Text add
+           let text="Hello";
+           text += "World";
+           document.write("This Word is Add =",text,"<br>");
+
+           // Subtraction Assignment
+
+           let c=30;
+           c -=20;
+           document.write("This Number is Subtract =",c,"<br>");
+
+           // Multiplication Assignment
+
+           let d=50;
+           d *=5;
+           document.write("This Number is Multiple =",d,"<br>");
+
+           // Division Assignment
+
+           let x=30;
+           x /=6;
+           document.write("This Number is Divide =",x,"<br>");
+
+           // Modulus Assignment
+
+           let y=50;
+           y %=6;
+           document.write("Number is Modulus =",y,"<br>");
+
+    
+        </script>
+        <hr>
+
+        <h2><CENTER>LOGICAL OPERATOR</CENTER>
+          <br>
+          <script>
+            // && And 
+            let age=18;
+            if(age>=18 && age <=40){
+              document.write("This is True","<br>")
+            };
+            let m=true;
+            let n=false;
+            document.write(m&&n,"<br>");
+
+            // OR(||)
+            let IsAdmin = true;
+            let IsEditor = false;
+            
+            if (IsAdmin || IsEditor){
+              document.write("You are Access","<br>")
+            } else{
+              document.write("Acces denied");
+            }
+
+            // NOT(!)
+            let yourIDcard = false;
+            if (!yourIDcard){
+              document.write("Enter College")
+            }
+             
+          </script>
+
+          <hr>
+          <h2><center>STRING OPERATOR</center>
+            <BR>
+          <script>
+            // Concatenation operator(+)
+            let name = "Sunny";
+            let Surname = "Kumar";
+            let Fullname = name + " "+ Surname;
+            document.write(Fullname,"<br>");
+
+            let your = 'CSA';
+            let Name = 'APNA' + your;
+            document.write(Name,"<br>");
+
+            // Concatenation Assignment operator (+=)
+           let massage="Hello";
+           massage += "CSA";
+           document.write(massage);
+
+
+          </script>
+            <hr>
+      <h2><center>TERNARY OPERATOR</center>
+      <BR>
+      <script>
+        let Age=16;
+        let Drive=age>=18 ? "Yes Drive":"No Drive";
+        document.write(Drive,"<br>");
+
+        let num = 5;
+        let ans = (num > 0)? "positive":"Nagetive";
+        document.write(ans);
+      </script>   
+      <hr>
+      <h2><center>TYPE OPERATOR</center>
+        <BR>
+          <script>
+          let Num = 50;
+          let NAME = "sunny";
+          let ispass = true;
+          let U;
+          let N=null;
+
+          document.write( typeof Num,"<br>");
+          document.write( typeof NAME,"<br>");
+          document.write( typeof ispass,"<br>");
+          document.write(typeof U,"<br>");
+          document.write(typeof N,"<br>");
+          
+          
+          </script>
+          <hr>
+
+          <h2><center>BITWISE OPERATOR</center>
+            <br>
+          <script>
+
+            // And Assignment Operator(&=)
+             var X=27;
+             X &=2;
+             document.write(X,"<br>");
+
+             let Y=17;
+             Y &=8;
+             document.write(Y,"<br>");
+
+             let Aam=22;
+             Aam |=5;
+             document.write(Aam,"<br>");
+
+             let hii=-12;
+             document.write(~hii,"<br>");
+
+             let hello=15; 
+             document.write(~hello);
+
+             
+             
+ </script>
+</body>
+</html> 

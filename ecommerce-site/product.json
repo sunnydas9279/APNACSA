@@ -1,0 +1,7 @@
+json [
+    {"name":"Shoes","price":1799},
+    {"name":"T-shirt","price":999},
+    {"name":"Backpack","price":1599},
+    {"name":"Shirt","price":899},
+    {"name":"Baggy Jeans","price":999}
+]
