@@ -38,6 +38,6 @@ a >>=5;
 // output= 3
 console.log(a);
 
-let n=-5;
+let n=5;
 n >>>=1;
 console.log(n);

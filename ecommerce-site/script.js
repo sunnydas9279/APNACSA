@@ -13,4 +13,4 @@ fetch('products.json')
         <button>Add To Cart</button>`;
         list.appendChild(div);
     });
-});
+});     

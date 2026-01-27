@@ -107,7 +107,7 @@ function checkAge(age){
     } else{
         console.log("Not eligible");
     }
-} checkAge(20);
+} checkAge(15);
     
 function greet(name){
     if(name){
@@ -115,4 +115,12 @@ function greet(name){
     } else{
         console.log("Hello:stranger");
     }
-} greet("sunny");
+} greet("Sunny");
+
+function greet(Hello){
+    if(Hello){
+        console.log("How Are You");
+    } else{
+        console.log("Who Are You");
+    }
+} 
