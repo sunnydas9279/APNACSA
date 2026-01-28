@@ -29,7 +29,7 @@ function calculator(X,operator,Y){
             case "/":
                 return division(X,Y);
                 default:
-                    return "Invailed Number";
+                    return "Invailed Number"  ;
 
   }
 
@@ -39,3 +39,24 @@ console.log("Subtraction=",calculator(50,"-",5));
 console.log("multiplication=",calculator(20,"*",5));
 console.log("Exponetiation=",calculator(10,"**",5));
 console.log("division=",calculator(100,"/",5));
+
+function calculator(X,operator,Y){
+  switch(operator){
+    case "add":
+     console.log(X+Y);
+     break;
+    case "subtraction":
+        console.log(X-Y);
+        break;
+    case "multiple":
+            console.log(X*Y);
+            break;
+    case "expo":
+            console.log(X**Y);
+  }
+} calculator(10,"add",5);
+  calculator(10,"subtraction",3);
+  calculator(10,"multiple",2);
+  calculator(10,"expo",1);
+  
+  
